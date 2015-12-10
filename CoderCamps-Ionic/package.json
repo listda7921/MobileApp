@@ -1,0 +1,7 @@
+{
+    "name": "CoderCamps-Ionic",
+    "version": "1.0.0",
+  "dependencies": {
+    "tsd": "0.6.5"
+  }
+}

@@ -1,0 +1,10 @@
+﻿<ion-view view-title="Home">
+    <ion-content class="padding">
+        <div class="list">
+            <div class="item item-thumbnail-left" ng-repeat="customer in controller.customers">
+                <img ng-src="{{customer.imageUrl}}">
+                <h2 class="customers">{{customer.name}}</h2>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,11 @@
+{
+  "name": "CoderCamps-Ionic",
+  "dependencies": {
+    "ionic": "~1.1.1",
+    "ngCordova": "~0.1.23-alpha",
+    "angular-resource": "1.4.6"
+  },
+  "resolutions": {
+    "angular": ">= 1.0.8"
+  }
+}
