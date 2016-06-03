@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html>
+﻿&#xFEFF;<!DOCTYPE html >
+<html ng-app="MyApp">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
@@ -9,12 +9,13 @@
         Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
         For details, see http://go.microsoft.com/fwlink/?LinkID=617521
     -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' http://code.ionicframework.com data: gap: https://ssl.gstatic.com 'unsafe-eval';img-src * ;style-src * 'unsafe-inline'; media-src *; script-src 'self' http://code.ionicframework.com">
+    <meta http-equiv="Content-Security-Policy" content="default-src &apos;self&apos; http://code.ionicframework.com data: gap: https://ssl.gstatic.com &apos;unsafe-eval&apos;;img-src * ;style-src * &apos;unsafe-inline&apos;; media-src *; script-src &apos;self&apos; http://code.ionicframework.com">
 
-    <link href="lib/ionic/release/css/ionic.min.css" rel="stylesheet" />
+    <link href="lib/ionic/release/css/ionic.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+  <base href="/" />
 </head>
-<body ng-app="MyApp">
+<body >
 
     <!--
       The nav bar that will be updated as we navigate between views.

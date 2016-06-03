@@ -90,13 +90,13 @@ var MyApp;
                 ];
             }
             return HomeController;
-        })();
+        }());
         angular.module('MyApp').controller('HomeController', HomeController);
         var AboutController = (function () {
             function AboutController() {
             }
             return AboutController;
-        })();
+        }());
         angular.module('MyApp').controller('AboutController', AboutController);
     })(Controllers = MyApp.Controllers || (MyApp.Controllers = {}));
 })(MyApp || (MyApp = {}));
